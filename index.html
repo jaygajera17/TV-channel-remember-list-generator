@@ -25,7 +25,8 @@
 <body>
 
   <div class="container">
-    <h1 class="row">Tv Channel List Generator</h1>
+    <center><h3 style="color: blue ;">Tv Channel List Generator</h3>
+    <p> When Your Relative Visit Your Home just make the list, download it and share it</p></center>
     <br>
     <div class="row">
 
@@ -61,7 +62,7 @@
         <br><br>
 
         <div class="form-group">
-          <input type="button" value="Add"  onclick="myFunction()">
+          <input type="button" value="Add" style="width: 10vw " onclick="myFunction()">
         </div>
 
         <br>
@@ -123,7 +124,7 @@
           
         </fieldset>
         <div class="form-group">
-          <input type="button" class="btn btn-outline-primary" value="Add" style="width: 10vw " onclick="myFunction()">
+          <input type="button" class="btn btn-outline-primary" value="Add" onclick="myFunction()"></input>
         </div>
       </form>
 
@@ -136,9 +137,9 @@
     <button class="btn btn-success btn-lg float-right" onclick="printFunction()"  type="submit">Download</button> 
     <div id="printableArea">
     <div class="table-responsive">
-      <table class="table table-hover table-dark" id="news">
+      <table class="table table-bordered" id="news">
         <thead>
-          <tr>
+          <tr class="table-info">
             <th scope="col">Channel Number </th>
             <th scope="col">Channel Name </th>
 
@@ -155,9 +156,9 @@
     <hr>
 
     <div class="table-responsive">
-      <table class="table table-hover table-dark" id="sport">
+      <table class="table table-bordered" id="sport">
         <thead>
-          <tr>
+          <tr class="table-danger">
             <th scope="col">Channel Number </th>
             <th scope="col">Channel Name </th>
 
@@ -172,9 +173,9 @@
     <hr>
 
     <div class="table-responsive">
-      <table class="table table-hover table-dark" id="movie">
+      <table class="table table-bordered" id="movie">
         <thead>
-          <tr>
+          <tr class="table-primary">
             <th scope="col">Channel Number </th>
             <th scope="col">Channel Name </th>
 
@@ -188,9 +189,9 @@
     </div>
     <hr>
     <div class="table-responsive">
-      <table class="table table-hover table-dark" id="song">
+      <table class="table table-bordered" id="song">
         <thead>
-          <tr>
+          <tr class="table-warning">
             <th scope="col">Channel Number </th>
             <th scope="col">Channel Name </th>
 
@@ -204,9 +205,9 @@
     </div>
     <hr>
     <div class="table-responsive">
-      <table class="table table-hover table-dark" id="favourite">
+      <table class="table table-bordered" id="favourite">
         <thead>
-          <tr>
+          <tr class="table-success">
             <th scope="col">Channel Number </th>
             <th scope="col">Channel Name </th>
 
@@ -224,7 +225,6 @@
 </div>
 <strong>  <h5 style="color: rgb(230, 54, 26);"> Made by <a style="color: rgb(97, 56, 194);" href="https://jaygajera17.github.io/Jay_Gajera_17/">Jay Gajera</a></h5></strong> 
 Visitors &#8594; <img src="https://hitwebcounter.com/counter/counter.php?page=7997520&style=0006&nbdigits=4&type=ip&initCount=5" title="Free Counter" Alt="web counter"   border="0" /></a> 
-  
   <style>
     table,
     th,
@@ -243,17 +243,21 @@ Visitors &#8594; <img src="https://hitwebcounter.com/counter/counter.php?page=79
 
     
 .btn {
-  background-color: DodgerBlue;
+  background-color: rgb(11, 11, 11);
   border: none;
   color: white;
-  padding: 12px 16px;
-  font-size: 16px;
+  padding: 10px 10px;
+  font-size: 12px;
   cursor: pointer;
 }
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: RoyalBlue;
+  background-color: rgb(34, 143, 47);
+}
+p {
+  color: navy;
+  text-indent: 30px;
 }
 
   </style>
