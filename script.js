@@ -23,7 +23,7 @@ alert("please enter value firt")
    if (document.getElementById("sport1").checked == true) {
     
      var table = document.getElementById("sport");
-     var row = table.insertRow(0);
+     var row = table.insertRow(-1);
      var cell1 = row.insertCell(0);
      var cell2 = row.insertCell(1);
      cell1.innerHTML = item;
@@ -33,7 +33,7 @@ alert("please enter value firt")
      let item = document.getElementById("num").value;
      let item2 = document.getElementById("box").value;
      var table = document.getElementById("news");
-     var row = table.insertRow(0);
+     var row = table.insertRow(-1);
      var cell1 = row.insertCell(0);
      var cell2 = row.insertCell(1);
      cell1.innerHTML = item;
@@ -44,7 +44,7 @@ alert("please enter value firt")
      let item = document.getElementById("num").value;
      let item2 = document.getElementById("box").value;
      var table = document.getElementById("movie");
-     var row = table.insertRow(0);
+     var row = table.insertRow(-1);
      var cell1 = row.insertCell(0);
      var cell2 = row.insertCell(1);
      cell1.innerHTML = item;
@@ -54,7 +54,7 @@ alert("please enter value firt")
      let item = document.getElementById("num").value;
      let item2 = document.getElementById("box").value;
      var table = document.getElementById("song");
-     var row = table.insertRow(0);
+     var row = table.insertRow(-1);
      var cell1 = row.insertCell(0);
      var cell2 = row.insertCell(1);
      cell1.innerHTML = item;
@@ -64,7 +64,7 @@ alert("please enter value firt")
      let item = document.getElementById("num").value;
      let item2 = document.getElementById("box").value;
      var table = document.getElementById("favourite");
-     var row = table.insertRow(0);
+     var row = table.insertRow(-1);
      var cell1 = row.insertCell(0);
      var cell2 = row.insertCell(1);
      cell1.innerHTML = item;
@@ -104,3 +104,18 @@ alert("please enter value firt")
          //     alert("Please add an item");
          // }
 
+         function deletenews() {
+            document.getElementById("news").deleteRow(1);
+          }
+          function deletesong() {
+            document.getElementById("song").deleteRow(1);
+          }
+          function deletemovies() {
+            document.getElementById("movie").deleteRow(1);
+          }
+          function deletesport() {
+            document.getElementById("sport").deleteRow(1);
+          }
+          function deletefavourite() {
+            document.getElementById("favourite").deleteRow(1);
+          }
