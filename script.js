@@ -17,7 +17,7 @@ function printFunction() {
      let item2 = document.getElementById("box").value;
    if(item==0 || item2==0)
 {
-alert("please enter value firt")
+alert("please enter value first")
 }
 
    if (document.getElementById("sport1").checked == true) {
